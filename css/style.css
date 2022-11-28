@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+.html{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 .navbar-brand {
     /* padding-left: 20%; */
     font-family: 'Ubuntu', sans-serif;
@@ -218,6 +227,10 @@ header {
     font-size: 50px;
 }
 
+.contact-box{
+    height: 500px;
+}
+
 .btn-icon{
     padding: 10px;
     background-color: rgb(111 117 194);
@@ -249,4 +262,23 @@ header {
 
 .footer-text {
     color: #eeee;
+}
+
+@media(min-width: 768px) {
+
+    .container {
+		width: 85%;	
+	}
+    
+    .nav-items{
+        width: auto;
+    }
+
+    .shapedivider1::before {
+        background-size: 100% calc(2vw + 90px);
+    }
+
+    .shapedivider2::before {
+        background-size: 100% calc(2vw + 90px);
+    }
 }

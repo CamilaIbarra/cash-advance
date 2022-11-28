@@ -34,7 +34,7 @@
 }
 
 /* Responsive */
-/* @media(max-width:768px) {
+@media(max-width:768px) {
 
     .navbar .container {
         flex-direction: column;
@@ -42,8 +42,16 @@
         text-align: center;
     }
 
+    .navbar-brand {
+        padding-right: 5%;
+    }
+
     .nav-items {
         flex-direction: column;
     }
 
-} */
+    .steps{
+        align-items: unset;
+    }
+
+}
