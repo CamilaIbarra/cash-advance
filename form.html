@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/7de6ab665e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/login.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/flexbox.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- Nabvar -->
+    <!-- Nabvar -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top bg-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><i class="fa-solid fa-hand-holding-dollar"></i> Cash Advance</a
+        >
+        <div class="nav-items">
+          <a href="form.html" class="request-btn">
+            <button class="btn btn-outline-light">Solicita tu anticipo</button>
+          </a>
+          <!-- <a href="" class="request-btn">
+            <button class="btn btn-outline-dark">Sobre Cash Advance</button>
+          </a> -->
+          <a href="" class="request-btn">
+            <button class="btn btn-outline-light">Contacto</button>
+          </a>
+          <a href="" class="request-btn">
+            <button class="btn btn-outline-light">Nuestra APP</button>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Login form  -->
+    <div class="container">
+      <div class="row justify-content-center align-items-center inner-row">
+        <div class="col-lg-5 col-md-7">
+          <div class="form-box login-form p-md-5 p-3">
+            <div class="form-title">
+              <h2 class="fw-bold mb-3">Login</h2>
+            </div>
+            <form action="" id="login-sign-up-form">
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control form-control-sm"
+                  placeholder="Email"
+                  id="floatingInput"
+                  required
+                />
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="password"
+                  class="form-control form-control-sm"
+                  placeholder="Contraseña"
+                  id="floatingPassword"
+                  required
+                />
+                <label for="floatingPassword">Contraseña</label>
+                <i class="fa-solid fa-eye-slash" id="show-password"></i>
+              </div>
+              <div class="mt-3">
+                <button class="btn primaryBg">Ingresar</button>
+              </div>
+            </form>
+            <div class="mt-3">
+              <span>No tiene una cuenta? </span
+              ><button
+                class="p-0 border-0 bg-transparent primaryColor signup-show"
+              >
+                Regístrese
+              </button>
+            </div>
+          </div>
+
+          <!-- Sign up form  -->
+          <div class="form-box register-form p-md-5 p-3">
+            <div class="form-title">
+              <h2 class="fw-bold mb-3">Cree una cuenta</h2>
+            </div>
+            <form action="">
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control form-control-sm"
+                  placeholder="Nombre"
+                  id="floatingInput"
+                  required
+                />
+                <label for="floatingInput">Nombre</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control form-control-sm"
+                  placeholder="Apellido"
+                  id="floatingInput"
+                  required
+                />
+                <label for="floatingInput">Apellido</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control form-control-sm"
+                  placeholder="Email"
+                  id="floatingInput"
+                  required
+                />
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="password"
+                  class="form-control form-control-sm"
+                  placeholder="Contraseña"
+                  id="floatingPassword"
+                  required
+                />
+                <label for="floatingPassword">Contraseña</label>
+              </div>
+              <div class="mt-3">
+                <button class="btn primaryBg">Registrarse</button>
+              </div>
+            </form>
+            <div class="mt-3">
+              <span>Ya tiene una cuenta? </span
+              ><button
+                class="p-0 border-0 bg-transparent primaryColor login-show"
+              >
+                Ingrese
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
